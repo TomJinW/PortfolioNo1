@@ -14,7 +14,7 @@
 
 This partcular iOS App utilize the True Depth camera of the iPhone X to caputure the depth-map image of an object and finally generates 3D models of it with the following steps. It's a laboratory project when I was senior.
 
-## The Main Precedures of the App
+## The Main Procedures of the App
 1. Take pictures with depth-map data. This is done by ARKit using Swift. Then pass the data through by programming a simple bridging Objective-C header so that the C++ code can recongnize it.
 2. compute the point cloud position in real 3D world by using the intrinsics of the iPhone X camera.
 3. Use OpenCV to detect feature points of each photo and match them together using algorithm like SIFT for SURF.
